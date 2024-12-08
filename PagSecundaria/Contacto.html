@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,62 @@
     <header>
         <img src="../imagenes/pasted-image-0-4.png" alt="Spotify Logo" width="45%">
         <br>
-       <span>Contáctanos</span>
-       <nav>
-         <u1>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="../PagSecundaria/AcercadeSpotify.html" target="_blank">Acerca de Spotify</a></li>
-            <li><a href="../PagSecundaria/Novedades.html" target="_blank">Novedades Musicales</a></li>
-            <li><a href="../PagSecundaria/Contacto.html" target="_blank">Contáctanos</a></li>
-         </u1>
-      </nav>
+        <span>Contáctanos</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="../PagSecundaria/AcercadeSpotify.html" target="_blank">Acerca de Spotify</a></li>
+                <li><a href="../PagSecundaria/Novedades.html" target="_blank">Novedades Musicales</a></li>
+                <li><a href="../PagSecundaria/Contacto.html" target="_blank">Contáctanos</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <section>
+            <h2>¿Dudas?</h2>
+            <p>¿Tienes alguna sugerencia o duda? Puedes llenar los siguientes espacios para ponernos en contacto contigo.</p>
+
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" placeholder="nombre" required><br><br>
     
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" placeholder="email" required><br><br>
+    
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" placeholder="mensaje" required></textarea><br><br>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section>
+            <h2>¿Deseas ser parte de la comunidad web?</h2>
+            <p>Puedes formar parte de la comunidad de este blog enviando tu solicitud al correo:</p>
+            <p>Contacto correo: <a href="mailto:blogspotify@correo.com">blogspotify@correo.com</a></p>
+            <p>O comunicarte al teléfono:</p>
+            <p>Tel: 055484842248</p>
+        </section>
+
+        <section>
+            <h2>Gracias por visitar el blog.</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Blog Spotify</p>
+        <p>Ecuador🌍</p>
+        <p>Puedes encontrarnos principalmente en:</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="../imagenes/logo_yt.png" alt="Youtube" width="5%">
+                    <img src="../imagenes/tk_logo.png" alt="TikTok" width="5%">
+                    <img src="../imagenes/ig_logo.png" alt="Instagram" width="5%">
+                </td>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>
