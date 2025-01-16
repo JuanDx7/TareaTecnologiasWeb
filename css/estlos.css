@@ -1,0 +1,71 @@
+ header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.cabecera{
+    height: 250px;
+    background-color: black;        
+}
+
+.cabecera img {
+    width: 430px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.titulo{
+    font-size: 20px;   
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    float: left;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.menu{
+    float: left;
+}
+
+.menu ul{
+    float: left;
+    list-style: none;
+}
+
+.menu ul li{
+   display: inline-block;
+   margin-right: 200px; 
+}
+
+.menu ul li a {
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu ul li a:hover{
+    font-size: 1.2em;
+    color: green;
+}
+
+.pre-entrada h1{
+    margin-top: 100px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold
+}
+
+.pre-contenido{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color: black;
+}
+
+.pre-entrada img{
+ margin-top: -60px; /* Ajusta este valor según sea necesario */
+}
