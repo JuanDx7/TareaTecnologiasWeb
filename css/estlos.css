@@ -54,6 +54,7 @@
 
 .pre-entrada h1{
     margin-top: 100px;
+    font-size: 75px;
     border-top: 1px solid black;
     text-align: center;
     font-family: 'Franklin Gothic Medium';
@@ -63,9 +64,13 @@
 .pre-contenido{
     font-family: 'Franklin Gothic Medium';
     font-weight: bold;
+    font-size: 40px;
     color: black;
+    text-align: left;
+    margin-left: 660px;
 }
 
 .pre-entrada img{
- margin-top: -60px; /* Ajusta este valor según sea necesario */
+    margin-top: -615px; 
+    width: 650px;
 }
