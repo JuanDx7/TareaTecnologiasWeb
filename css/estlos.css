@@ -74,3 +74,98 @@
     margin-top: -615px; 
     width: 650px;
 }
+
+.contenido h2{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+.contenido h3{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+
+.contenido p{
+    font-family: 'Arial';
+    font-size: 19px;
+    color: black;
+    text-align: left;
+}
+
+.contenido img{
+    width: 650px;
+    transition: width 0.3s;
+}
+
+.contenido img:hover{
+    width: 675px;
+}
+
+.final h3{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    border-top: 1px solid black;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.final p{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-left: 677px;
+    margin-top: 100px;
+}
+
+.final img{
+    margin-top: -300px; 
+    width: 650px;
+}
+
+.piepag {
+    background-color: rgb(196, 195, 195);        
+}
+
+.piepag p{
+    font-family: 'Arial';
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+
+.piepag img{
+    width: 65px;
+    transition: width 0.3s;
+}
+
+.piepag img:hover{
+    width: 70px;
+}
+
+.contenidopt1 h2 {
+    margin-top: 100px;
+    font-size: 75px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold
+}
+
+.pre-entrada h2{
+    margin-top: 100px;
+    font-size: 75px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold
+}
