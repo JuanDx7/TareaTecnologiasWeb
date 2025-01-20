@@ -169,3 +169,126 @@
     font-family: 'Franklin Gothic Medium';
     font-weight: bold
 }
+
+.contenidopt1 h3{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-top: -50px;
+}
+
+.contenidopt1 video{
+    width: 655px;
+    margin-top: -65px; 
+}
+
+.contenidopt1 p{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-left: 660px;
+    margin-top: -350px; 
+}
+
+.contenidopt2 h2{
+    margin-top: 100px; 
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.contenidopt2 img{
+    width: 675px;
+    margin-left: 378px; 
+
+}
+
+.contenidopt2 ul{
+    float: left;
+    list-style: none;
+} 
+
+.contenidopt2 h3{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    list-style: none;
+}
+
+.introduccion{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+.contenidopt2 p ul{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 90px;
+    color: black;
+    text-align: left;
+    list-style: none;
+}
+
+.contenidopt2 ul li p{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+    list-style: none;
+}
+
+.contenidopt3 h2{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center; 
+}
+
+.contenidopt3 p{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-align: left; 
+}
+
+.contenidopt3 table{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin-left: 558px; 
+}
+
+.contenidopt3 table {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.contenidopt3 table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.contenidopt2{
+    background-image: linear-gradient( white 5%, rgb(92, 241, 229)75%, white)
+}
+
+.contenidopt2 ul{
+    background-image: linear-gradient( rgb(92, 241, 129)50%, rgb(92, 241, 129)95%)
+}
