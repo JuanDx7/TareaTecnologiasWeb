@@ -189,9 +189,11 @@ header {
     width: 70px;
 }
 
+/* Sección 2 */
+
 .contenidopt1 h2 {
     margin-top: 100px;
-    font-size: 75px;
+    font-size: 75%;
     border-top: 1px solid black;
     text-align: center;
     font-family: 'Franklin Gothic Medium';
@@ -217,22 +219,25 @@ header {
 }
 
 .contenidopt1 video{
-    width: 655px;
-    margin-top: -65px; 
+    width: 45%; 
+    margin-top: -50px; 
+    max-width: 100%;  
+    height: auto;
 }
 
 .contenidopt1 p{
     font-family: 'Franklin Gothic Medium';
     font-weight: bold;
-    font-size: 25px;
+    margin-top: -25%;
+    font-size: 150%;
     color: black;
     text-align: left;
-    margin-left: 660px;
-    margin-top: -350px; 
+    margin-left: 46%;
+    line-height: 20px;
 }
 
 .contenidopt2 h2{
-    margin-top: 100px; 
+    margin-top: 150px; 
     font-family: 'Franklin Gothic Medium';
     font-weight: bold;
     font-size: 40px;
@@ -241,9 +246,13 @@ header {
 }
 
 .contenidopt2 img{
-    width: 675px;
-    margin-left: 378px; 
-
+    width: 50%;
+    margin-top: 1%;
+    transition: width 0.9s;
+    margin-left: 30%;
+    opacity: 0; /* Comienza siendo invisible */
+    animation: fadeIn 2s forwards; /* Aplica la animación */
+    transition: margin-top 2%;
 }
 
 .contenidopt2 ul{
@@ -291,7 +300,7 @@ header {
     font-weight: bold;
     font-size: 40px;
     color: black;
-    text-align: center; 
+    text-align: center;
 }
 
 .contenidopt3 p{
@@ -307,7 +316,7 @@ header {
     font-weight: bold;
     font-size: 18px;
     color: black;
-    margin-left: 558px; 
+    margin-left: 45%; 
 }
 
 .contenidopt3 table {
@@ -327,5 +336,203 @@ header {
 }
 
 .contenidopt2 ul{
-    background-image: linear-gradient( rgb(92, 241, 129)50%, rgb(92, 241, 129)95%)
+    background-image: linear-gradient(150deg,rgb(255, 255, 255)5%, rgb(98, 245, 135)75%,
+    rgb(175, 248, 175))
+}
+
+/* Sección 3 */
+
+.pre-entrada3 h2{
+    margin-top: 100px;
+    font-size: 75px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold
+}
+
+.pre-entrada3 h3{
+    margin-top: -60px;
+    font-size: 150%;
+    text-align: left;
+    font-family: 'Tahoma';
+    font-weight: bold
+}
+
+
+.pre-entrada3 p{
+    font-size: 120%;
+    text-align: left;
+    font-family: Tahoma;
+    font-weight: bold
+}
+
+.album1 h2 {
+    font-size: 120%; /* Tamaño del texto */
+    text-align: left; /* Alineación del texto a la izquierda */
+    font-family: 'Franklin Gothic Medium'; /* Familia de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    margin-left: 2%;
+    color: rgb(213, 245, 239); /* Color del texto */
+    text-shadow: 
+    1px 1px 2px black,   /* Borde superior izquierdo */
+    -1px -1px 2px black, /* Borde inferior derecho */
+    1px -1px 2px black,  /* Borde superior derecho */
+    -1px 1px 2px black;  /* Borde inferior izquierdo */
+}
+
+.album1 img{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.album1 p{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 40%;
+    margin-top: -25%;
+    line-height: 20px;
+    height: 25%; /* Ajusta la altura fija según tu diseño */ 
+}
+
+.album1 a{
+    margin-left: 60%;
+    margin-top: -5%;
+}
+
+.enlace img{
+    width: 17%;
+    transition: width 0.3s;
+}
+
+.enlace img:hover{
+    width: 19%;
+}
+
+.album1{
+    background-image: linear-gradient(25deg, white 1%, rgb(164, 241, 76)50%,
+    rgb(76, 241, 84)50%, white)
+}
+
+.album2{
+    margin-top: 12%;
+}
+
+.album2 h2 {
+    font-size: 120%; /* Tamaño del texto */
+    text-align: left; /* Alineación del texto a la izquierda */
+    font-family: 'Franklin Gothic Medium'; /* Familia de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    margin-left: 2%;
+    color: rgb(243, 219, 219); /* Color del texto */
+    text-shadow: 
+    1px 1px 2px black,   /* Borde superior izquierdo */
+    -1px -1px 2px black, /* Borde inferior derecho */
+    1px -1px 2px black,  /* Borde superior derecho */
+    -1px 1px 2px black;  /* Borde inferior izquierdo */
+}
+
+.album2 img{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.album2 p{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 40%;
+    margin-top: -25%;
+    line-height: 20px;
+    height: 25%; /* Ajusta la altura fija según tu diseño */ 
+}
+
+.album2 a{
+    margin-left: 60%;
+    margin-top: -5%;
+}
+
+.enlace img{
+    width: 17%;
+    transition: width 0.3s;
+}
+
+.enlace img:hover{
+    width: 19%;
+}
+.album2{
+    background-image: linear-gradient(25deg, white 1%, rgb(177, 166, 166)50%,
+    rgb(241, 76, 76)50%, white)
+}
+
+.album3{
+    margin-top: 12%;
+}
+
+.album3 h2 {
+    font-size: 120%; /* Tamaño del texto */
+    text-align: left; /* Alineación del texto a la izquierda */
+    font-family: 'Franklin Gothic Medium'; /* Familia de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    margin-left: 2%;
+    color: rgb(234, 255, 157); /* Color del texto */
+    text-shadow: 
+    1px 1px 2px black,   /* Borde superior izquierdo */
+    -1px -1px 2px black, /* Borde inferior derecho */
+    1px -1px 2px black,  /* Borde superior derecho */
+    -1px 1px 2px black;  /* Borde inferior izquierdo */
+}
+
+.album3 img{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.album3 p{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 40%;
+    margin-top: -25%;
+    line-height: 20px;
+    height: 25%; /* Ajusta la altura fija según tu diseño */ 
+}
+
+.album3 a{
+    margin-left: 60%;
+    margin-top: -5%;
+}
+
+.enlace img{
+    width: 17%;
+    transition: width 0.3s;
+}
+
+.enlace img:hover{
+    width: 19%;
+}
+
+.album3{
+    background-image: linear-gradient(25deg, white 1%, rgb(253, 106, 106)50%,
+    rgb(233, 193, 107)50%, white)
+}
+
+.despedida{
+    margin-top: 12%;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 20px;
+    height: 25%; /* Ajusta la altura fija según tu diseño */ 
+}
+
+.despedida img {
+    width: 35%;
+    margin-left: 35%;
+    transition: width 0.3s;
+}
+
+.despedida img:hover{
+    width: 38%;
 }
