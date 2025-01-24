@@ -62,6 +62,15 @@ header {
     font-weight: bold
 }
 
+.pre-entrada h2{
+    margin-top: 100px;
+    font-size: 75px;
+    border-top: 1px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold
+}
+
 .pre-entrada img {
     width: 50%; 
     margin-top: -70px; 
@@ -247,12 +256,11 @@ header {
 
 .contenidopt2 img{
     width: 50%;
-    margin-top: 1%;
+    margin-top: 2%;
     transition: width 0.9s;
     margin-left: 30%;
     opacity: 0; /* Comienza siendo invisible */
     animation: fadeIn 2s forwards; /* Aplica la animación */
-    transition: margin-top 2%;
 }
 
 .contenidopt2 ul{
@@ -316,7 +324,7 @@ header {
     font-weight: bold;
     font-size: 18px;
     color: black;
-    margin-left: 45%; 
+    margin-left: 40%; 
 }
 
 .contenidopt3 table {
@@ -535,4 +543,30 @@ header {
 
 .despedida img:hover{
     width: 38%;
+}
+
+/* Sección Final */
+
+.pre-entrada3 form{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.pre-entrada3 form{
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.pre-entrada3 form{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.pre-entrada3 form{
+    background-image: linear-gradient(25deg, white 1%, rgb(106, 219, 253)5%,
+    rgb(178, 233, 107)50%, white)
 }
